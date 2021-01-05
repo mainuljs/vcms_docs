@@ -3,7 +3,7 @@
 
 ## showMainMenu
 
-This function is used for calling main menu
+This function is used for calling main menu2
 
 ```html
 <!-- main menu -->
