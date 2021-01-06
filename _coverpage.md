@@ -12,3 +12,6 @@
 
 [GitHub](https://misratjannat.github.io/TOS-Documentation/)
 [Get Started](#tos)
+
+
+<!-- ![](_media/banner.jpg) -->
