@@ -1,5 +1,5 @@
 
-<h2 id="tos">Total online solution</h2>
+<h2>Visual CMS </h2>
 
 > Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 
