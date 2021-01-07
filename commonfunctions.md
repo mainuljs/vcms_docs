@@ -9,3 +9,13 @@
 ``` 
   segment() function returns the uri segment.
   
+
+## home() 
+ * return:  true | false;
+ 
+```php
+  home(); // https://domain.com/
+  // true;
+``` 
+  return true if it is system root .
+  
