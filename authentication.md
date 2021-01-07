@@ -4,6 +4,7 @@
 - is_admin()
 - get_username()
 - is_loggedIn()
+- user_validate($userLevel)
 
 ## Properties
  - $loggedIn;
