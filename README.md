@@ -1,5 +1,4 @@
-
-# Visual CMS
+<h2 id="tos">Visual CMS</h2>
 
 > Full-featured SEO friendly CMS Powered by VisualSofts.
 
