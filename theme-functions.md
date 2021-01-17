@@ -27,8 +27,8 @@ It is a theme function.
 ### featuredimg($images, $title, $withimgtag, $single)
  * $images {string} - Image path strings
  * $title {string} (Optional) - title of the image. Default: NULL
- * $withimgtag {boolean} (Optional) - With image tag or only image path. Default: TRUE.
- * $single {boolean} (Optional) - if multiple image paths then determine whether need single first one or all. Default: TRUE.
+ * $withimgtag {boolean} (Optional) - With image tag or only image path. Default: (TRUE) - return with image tag
+ * $single {boolean} (Optional) - if multiple image paths then determine whether need single first one or all. Default: (TRUE) - Single image.
  
  Format featured image paths into html way. 
  
