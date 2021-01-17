@@ -21,3 +21,13 @@ It is a theme function.
 	</div>																
 </nav>
 ```
+
+## Image
+
+### featuredimg($images, $title, $withimgtag, $single)
+ * $images {string} - 
+ * $title {string} (Optional) - 
+ * $withimgtag {string} (Optional) - 
+ * $single {string} (Optional) - 
+ 
+ 
