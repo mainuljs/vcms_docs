@@ -5,7 +5,7 @@
 
 ## Menu
 
-## showMainMenu($menu, $option, $active )
+### showMainMenu($menu, $option, $active )
  * @param {array} $menu - formatted multidimentional associative array.
  * @param {string | array | optional} $option - any defined option.
  * @param {string | optional} $active - current menu to set active menu style.
