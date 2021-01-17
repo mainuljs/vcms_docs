@@ -1,4 +1,9 @@
-# Menu Bars
+## Theme Functions.
+ * [Menu Bars](theme-functions.md#menu)
+ * [Images](theme-functions.md)
+
+
+## Menu
 
 ## showMainMenu($menu, $option, $active )
  * @param {array} $menu - formatted multidimentional associative array.
