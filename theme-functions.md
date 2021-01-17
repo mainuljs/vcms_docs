@@ -1,6 +1,7 @@
 ## Theme Functions.
  * [Menu Bars](theme-functions.md#menu)
  * [Images](theme-functions.md#image)
+ * [Other](theme-functions.md#other)
 
 
 ## Menu
@@ -41,4 +42,24 @@ It is a theme function.
   
  
  ```
+ 
+ 
+ 
+ ## Other
+ 
+### share($content)
+* $content {array} - Base content array.
+* Return: string
+
+Return article post share links. Use only on a single post page.
+
+
+### content_util()
+* Return: string
+
+Article post print, text size increase or decrease utility. Use Only on a single post page.
+
+
+
+
  
