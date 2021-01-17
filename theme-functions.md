@@ -6,9 +6,9 @@
 ## Menu
 
 ### showMainMenu($menu, $option, $active )
- * @param {array} $menu - formatted multidimentional associative array.
- * @param {string | array | optional} $option - any defined option.
- * @param {string | optional} $active - current menu to set active menu style.
+ * $menu {array} - formatted multidimentional associative array.
+ * $option { string | array | optional }  - any defined option.
+ * $active { string | optional } - current menu to set active menu style.
 
 It is a theme function.
 
