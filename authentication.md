@@ -18,7 +18,7 @@ echo get_username();
 
 ### user_validate($userlevel)
  * $userlevel { int | optional } - Validate user from 2 to 9 level.
- * Return: bloean
+ * Return: boolean
 
 Validate logged in user by there level. Level must be 2 to 9.
 if the level is 4 then it validates from 4 to 9. 
