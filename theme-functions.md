@@ -1,6 +1,6 @@
 ## Theme Functions.
  * [Menu Bars](theme-functions.md#menu)
- * [Images](theme-functions.md)
+ * [Images](theme-functions.md#image)
 
 
 ## Menu
@@ -21,6 +21,9 @@ It is a theme function.
 	</div>																
 </nav>
 ```
+
+
+
 
 ## Image
 
