@@ -1,23 +1,24 @@
 # Authentication
 
 ### check_login()
- * @return (boolean)
+ * Return: boolean
 
 Check whether the user logged in or not. If logged then it returns true, otherwise false.
 
 
 ### get_username()
- * @return (true|NULL)
+ * Return: true | NULL
 
 Return the user name when looged in, otherwise return NULL
+
 ```php
 echo get_username();
 ```
 
 
 ### user_validate($userlevel)
- * @param {int|optional} $userlevel - Validate user from 2 to 9 level.
- * @return (bloean)
+ * $userlevel { int | optional } - Validate user from 2 to 9 level.
+ * Return: bloean
 
 Validate logged in user by there level. Level must be 2 to 9.
 if the level is 4 then it validates from 4 to 9. 
@@ -29,7 +30,7 @@ if the level is 4 then it validates from 4 to 9.
 ```
 
 ### is_admin()
- * @return {boolean}
+ * Return: boolean
 
 Check whether a logged in user is admin or not. 3 to 9 level users are considered as admin users.
 
