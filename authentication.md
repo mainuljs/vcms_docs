@@ -1,56 +1,90 @@
 # Authentication
-## Functions
+
 ### check_login()
-> Check whether loggedIn or not.It returns `username and flag` as global.
+ * @return (boolean)
 
-**How it works**
-```php
-check_login()			
-```
-
-
-### is_admin()
-> Check user admin.It returns `True or False`
-
-**How is works**
-```php
-is_admin()
-```
+Check whether the user logged in or not. If logged then it returns true, otherwise false.
 
 
 ### get_username()
-> Returns loggedIn `user name` from session
+ * @return (true|NULL)
 
-**How it works**
+Return the user name when looged in, otherwise return NULL
 ```php
-get_username()
-
+echo get_username();
 ```
 
 
-### is_loggedIn()
-> Returns `loggedIn flag` from session
+### user_validate($userlevel)
+ * @param {int|optional} $userlevel - Validate user from 2 to 9 level.
+ * @return (bloean)
 
-**How it works**
+Validate logged in user by there level. Level must be 2 to 9.
+if the level is 4 then it validates from 4 to 9. 
+
 ```php
-is_loggedIn()
+ if( user_validate(7) )
+ echo "Only 7, 8 and 9 level  can see it.";
+ 
+```
 
+### is_admin()
+ * @return {boolean}
+
+Check whether a logged in user is admin or not. 3 to 9 level users are considered as admin users.
+
+```php
+ if( is_admin() )
+ echo "You have permission to delete it.";
+ 
+```
+
+
+## Global vars to authenticate.
+
+### $loggedIn;
+True if the user is logged in, otherwise False.
+
+```php
+ if( $loggedIn )
+ echo "You can see it.";
+ 
+```
+
+### $loggedInUser;
+Return username of the logged in user or NULL.
+
+```php
+ if( $loggedIn ) echo "Username: ".$loggedInUser;
+ 
+```
+ 
+### $userTitle;
+Return the group title of the logged in user or NULL if not.
+
+```php
+ if( $loggedIn ) echo "User Group: ".$userTitle;
+ 
 ``` 
 
-### user_validate($userLevel)
-> Check user is valid or not.Return `true or false`.
+### $userEmail;
+Return the email address of the logged in user or NULL if not.
 
-**How it works**
 ```php
-user_validate($user_level)
+ if( $loggedIn ) echo "User Email: ".$userEmail;
+ 
+``` 
 
-```
 
+### $userLevel;
+Return the level of the logged in user or NULL if not.
 
+```php
+ if( $loggedIn ) {
+  if( is_admin($userLevel) ){
+   echo "Only admin can see it";
+  }
+ }
+ 
+``` 
 
-## Properties
- - $loggedIn;
- - $loggedInUser;
- - $userTitle;
- - $userEmail;
- - $userLevel;
