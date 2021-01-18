@@ -1,7 +1,8 @@
 ## Common API Data.
 
 ### $content_type
- * Post content type. Generally two type. Single and Multiple
+ * Type: Property.
+Post content type. Generally two type. Single and Multiple
  
 ```php
   if($content_type === 'single')
