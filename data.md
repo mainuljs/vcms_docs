@@ -47,9 +47,10 @@ stdClass Object
 ```
 
 
-### $baseSlider - Data for base slider.
+### $baseSlider
  * Type: Associative array data.
  
+ Data for base slider.
  Base slider data can be found as array which need to be iterate.
  
  ```markdown
@@ -78,4 +79,60 @@ Array
    
 ```
 
+### $homePosts
+ * Type: Associative array data.
+ 
+ Content data for home page. Maximum 6 to 10 post data.
+ homePosts data can be found as array which need to be iterate.
+  
+ ```markdown
+ Array
+(
+    [0] => Array
+        (
+		[title] => Blog Post
+		[alias] => blog-post
+		[introtext] => This is intro...
+		[featuredimg] => 
+		[created_at] => 2020-11-25 06:11:00
+		[cat_title] => Blog
+		[cat_alias] => blog
+		[catlead] => 0                       
+            
+        )
+ ...
+)
+ 
+ ```
+ 
+ 
+ ### $next
+  * Type: Associative array data.
+ 
+ Next Article/Post if available
+  
+ ### $previous
+ * Type: Associative array data.
+ 
+ Previous Article/post if available.
+  
+ ### $related
+  * Type: Associative array data.
+ 
+ Related article data.
+ 
+ 
+### $recent
+  * Type: Associative array data.
+ 
+Recent published article.
+
+
+
+### $most
+  * Type: Associative array data.
+ 
+ Most viewed articles.
+ 
+ 
 
