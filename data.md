@@ -9,8 +9,10 @@
 ```
 
 
-### $content - Article Post Data
+### $content
 * Type: stdClass Object.
+
+Content return the single Aarticle Post Data as stdClass Object.
 
 ```php
 stdClass Object
