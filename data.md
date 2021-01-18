@@ -2,7 +2,8 @@
 
 ### $content_type
  * Type: Property.
-Post content type. Generally two type. Single and Multiple
+ 
+ Post content type. Generally two types. Single and Multiple
  
 ```php
   if($content_type === 'single')
