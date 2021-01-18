@@ -1,5 +1,35 @@
 ## Common API Data.
 
+### $appName
+ * Type: Property.
+ 
+Name of the Application.
+ 
+```php  
+  echo $appName; // VisualCMS  
+```
+
+
+### $title
+ * Type: Property.
+ 
+Title of the Application or page title from an specific page.
+ 
+```php  
+  echo $title; // VisualCMS for Publisher
+```
+
+
+### $description
+ * Type: Property.
+ 
+Description of the Application or page description from an specific page.
+ 
+```php  
+  echo $description;
+```
+
+
 ### $content_type
  * Type: Property.
  
