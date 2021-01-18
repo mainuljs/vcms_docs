@@ -10,7 +10,7 @@ Visual CMS is a SEO optimized Content Management Sysetm that is built to engage 
  * [Authentication](authentication.md)
  * [Theme - Menu Bars](theme-functions.md#menu)
  * [Theme - Sliders](sliders.md)
- * [Home Data](data.md)
+ * [API Data](data.md)
  * [Common Functions](commonfunctions.md)
 
 
