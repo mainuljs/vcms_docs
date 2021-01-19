@@ -1,17 +1,15 @@
 # Menu Bars
 
-## Main Menu
-> For main menu we need to call `showMainMenu()` function.It returns bootstrap 4 navigation.
+## showMainMenu($menu, $options='', $c_active='')
+* $menu - $menu is a multidimentional associative array. It has several key like - **m_title** , **m_link** , **m_id** , **parent** , **m_alias** , **m_view** , **submenu**
+* $option - $option is boolean data type. It returns `true or false`. If submenu exists then return true or return false.
+* $c_active - It return uri
+
+> This function is used to call main menu.Returns main menu.
 
 **How to use**
-```html
-<nav class="navbar navbar-expand main-menu">				  
-	<div class="collapse navbar-collapse justify-content-end top-nav">		
-		<?php 
-			showMainMenu($menuArray, array('submenu'=>FALSE), segment(1));
-		?>
-	</div>																
-</nav>
+```php
+showMainMenu($menuArray, array('submenu'=>FALSE), segment(1));
 ```
 
 **How function works**
@@ -54,16 +52,15 @@ function showMainMenu($menu, $options='', $c_active=''){
 
 <br>
 
-**Parameter**
-* $menu
-  > $menu is a multidimentional associative array. It has several key like - **m_title** , **m_link** , **m_id** , **parent** , **m_alias** , **m_view** , **submenu**
-* $option = ' '
-  > $option is boolean data type. It returns `true or false`. If submenu exists then return true or return false.
-* $c_active = ' '
-
-
-## Side Menu
+## showsideMenu($menu,$dropdown=FALSE)
+* $menu is a multidimentional associative array
+* $dropdown is a boolean data.It returns true or false.
 > For side menu we need to call `showsideMenu()` function
+
+**How to use**
+```php
+showsideMenu($menu,$dropdown=FALSE);
+```
 
 **How function works**
 ```php

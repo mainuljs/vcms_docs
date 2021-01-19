@@ -2,10 +2,6 @@
   - [Overview](overview.md)
   - [Requirements](requirements.md)
   - [Quick Start](quickstart.md)
-
-- Customization
-  - [List of Function](function.md)
-  - [Layouts](layouts.md)
   
 - Development Guide.
   - [Authentication](authentication.md)
